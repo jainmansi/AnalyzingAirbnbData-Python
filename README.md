@@ -10,6 +10,7 @@ I'll be asking following questions while performing my 5 analysis on this datase
 2. Why would anyone prefer to stay in Airbnb over hotels while visting Boston?
 3. How the sentiments of customers are over the social media after their stay at Airbnb in Boston?
 4. Are you more likely to be airbnb if you own Condominium rather than Apartment? Boats are pretty famous too ib Boston, but would anyone want to stay in a boat than a regular apartment?
+<br/>
           i. What's the most likey room-type?
           ii. Which kind of bed to expect in those rooms?
 5.
@@ -39,9 +40,9 @@ pip install <library_name>
 
 Following dataset are used to support my analysis on airbnb data:
 
-Markup :  1. Airbnb Boston Dataset
-          2. Listings of all the hotels in Boston
-          3. Twitter data for airbnb boston
+1. Airbnb Boston Dataset
+2. Listings of all the hotels in Boston
+3. Twitter data for airbnb boston
           
 # Analysis Results
 
