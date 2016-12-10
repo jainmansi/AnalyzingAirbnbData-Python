@@ -49,6 +49,9 @@ Markup :  1. Airbnb Boston Dataset
 
 Through this analysis, I aimed to find out the distribution of listings over different neighbourhood in Boston region.
 
+![listing_distribution_1](Analysis1_1.JPG)
+![listing_distribution_2](Analysis1_2.JPG)
+
 ## Analysis 2 -- Why Airbnb over hotels?
 
 In this analysis, I gathered latitudes and longitudes from Airbnb listings and Hotel listings. 
