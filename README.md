@@ -14,7 +14,7 @@ Markup :  1. How does neighborhood affect distribution of listings in Boston are
             2. Which kind of bed to expect in those rooms?
           5.
           
-# Getting Started
+# Pre-requisites
 
 For this analysis, I have used following libraries. You can also get them by using the following simple command:
 
@@ -27,5 +27,40 @@ pip install <library_name>
 4. os
 5. time
 6. glob
-7. operator
-8. pyexcel
+7. Pandas
+8. Numpy
+9. Matplotlib
+10. Seaborn
+11. Textblob
+12. datetime
+13. gmplot
+
+# Data Used
+
+Following dataset are used to support my analysis on airbnb data:
+
+Markup :  1. Airbnb Boston Dataset
+          2. Listings of all the hotels in Boston
+          3. Twitter data for airbnb boston
+          
+# Analysis Results
+
+## Analysis 1 -- What to expect where in Boston?
+
+Through this analysis, I aimed to find out the distribution of listings over different neighbourhood in Boston region.
+
+## Analysis 2 -- Why Airbnb over hotels?
+
+In this analysis, I gathered latitudes and longitudes from Airbnb listings and Hotel listings. 
+I also analyzed the neighborhood in Boston where the prices of listings are expensive compared to cheaper options.
+
+## Analysis 3 -- Changes in behavior of customers?
+
+The first graph represents the growth of number of reviews by customer's over time.
+However in second graph we see that customers are more likely to put a negative tweet on Twitter if they are dissatified and they are more likely to come back to Airbnb's website to leave a positive review if they are satisfied.
+
+## Analysis 4 -- Airbnb property information.
+
+From first graph, it is rather clear that an Airbnb customer shall expect Apartment kind of property over Condominium, independent houses or townships.
+Drilling down, they should also expect entire home or apartment to themselves than staying in a shared or private room.
+Drilling down even further, they can expect real beds for themselves than having to sleep on Pull-on sofa, Futon, Airbnb, Couch.
