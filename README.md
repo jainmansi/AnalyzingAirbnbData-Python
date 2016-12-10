@@ -9,13 +9,8 @@ I'll be asking following questions while performing my 5 analysis on this datase
 1. How does neighborhood affect distribution of listings in Boston area?
 2. Why would anyone prefer to stay in Airbnb over hotels while visting Boston?
 3. How the sentiments of customers are over the social media after their stay at Airbnb in Boston?
-4. Are you more likely to be airbnb if you own Condominium rather than Apartment? Boats are pretty famous too ib Boston, but would anyone want to stay in a boat than a regular apartment?
-<br/>
-          i. What's the most likey room-type? 
-          <br/>
-          ii. Which kind of bed to expect in those rooms?
-          </br>
-5.
+4. Are you more likely to be airbnb if you own Condominium rather than Apartment? Boats are pretty famous too ib Boston, but would anyone want to stay in a boat than a regular apartment? 
+5. What is the performance of occupancy of listings?
           
 # Pre-requisites
 
@@ -86,3 +81,8 @@ Drilling down, they should also expect entire home or apartment to themselves th
 Drilling down even further, they can expect real beds for themselves than having to sleep on Pull-on sofa, Futon, Airbnb, Couch.
 
 ![property_info_3](Analysis4_2.JPG)
+
+## Analysis 5 -- Airbnb Occupancy Performance
+
+In this analysis, I will be analyzing the performace of listing over time.
+I'll also be analyzing the occupancy trends against the pricing of that listing.
