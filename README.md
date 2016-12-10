@@ -57,13 +57,29 @@ Through this analysis, I aimed to find out the distribution of listings over dif
 In this analysis, I gathered latitudes and longitudes from Airbnb listings and Hotel listings. 
 I also analyzed the neighborhood in Boston where the prices of listings are expensive compared to cheaper options.
 
+![Airbnb_vs_hotels_1](Analysis2_1.JPG)
+
 ## Analysis 3 -- Changes in behavior of customers?
 
 The first graph represents the growth of number of reviews by customer's over time.
+
+![customer_behavior_1](Analysis3_1.JPG)
+
+<br/>
 However in second graph we see that customers are more likely to put a negative tweet on Twitter if they are dissatified and they are more likely to come back to Airbnb's website to leave a positive review if they are satisfied.
+
+![customer_behavior_2](Analysis3_2.JPG)
 
 ## Analysis 4 -- Airbnb property information.
 
 From first graph, it is rather clear that an Airbnb customer shall expect Apartment kind of property over Condominium, independent houses or townships.
+
+![property_info_1](Analysis4_3.JPG)
+
 Drilling down, they should also expect entire home or apartment to themselves than staying in a shared or private room.
+
+![property_info_2](Analysis4_1.JPG)
+
 Drilling down even further, they can expect real beds for themselves than having to sleep on Pull-on sofa, Futon, Airbnb, Couch.
+
+![property_info_3](Analysis4_2.JPG)
