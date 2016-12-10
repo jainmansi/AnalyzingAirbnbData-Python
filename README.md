@@ -11,8 +11,10 @@ I'll be asking following questions while performing my 5 analysis on this datase
 3. How the sentiments of customers are over the social media after their stay at Airbnb in Boston?
 4. Are you more likely to be airbnb if you own Condominium rather than Apartment? Boats are pretty famous too ib Boston, but would anyone want to stay in a boat than a regular apartment?
 <br/>
-          i. What's the most likey room-type?
+          i. What's the most likey room-type? 
+          <br/>
           ii. Which kind of bed to expect in those rooms?
+          </br>
 5.
           
 # Pre-requisites
