@@ -64,7 +64,7 @@ To determine the change in price, I used circles of different sizes with varying
 
 ![Airbnb_vs_hotels_3](results/Analysis2_3.png)
 
-![Airbnb_vs_hotels_4](results/mymap.gif)
+![Airbnb_vs_hotels_4](https://cloud.githubusercontent.com/assets/6801030/21081413/1d9bd1c0-bf94-11e6-86b5-c70ef79a63ce.gif)
 
 GIF created with [LiceCap](http://www.cockos.com/licecap/).
 
