@@ -10,7 +10,7 @@ I'll be asking following questions while performing my 5 analysis on this datase
 2. Why would anyone prefer to stay in Airbnb over hotels while visting Boston?
 3. How the sentiments of customers are over the social media after their stay at Airbnb in Boston?
 4. Are you more likely to be airbnb if you own Condominium rather than Apartment? Boats are pretty famous too ib Boston, but would anyone want to stay in a boat than a regular apartment? 
-5. What is the performance of occupancy of listings?
+5. What does the performance of listings change as the price of the rental changes?
           
 # Pre-requisites
 
@@ -37,9 +37,26 @@ pip install <library_name>
 
 Following dataset are used to support my analysis on airbnb data:
 
-1. Airbnb Boston Dataset
-2. Listings of all the hotels in Boston
-3. Twitter data for airbnb boston
+## 1. Airbnb Boston Dataset
+
+The data I collected for Airbnb was rather huge with 95 columns in total. Below is the video representation of all those rows which couldn't be contained in an image.
+
+### a. Listings Data
+![listings_columns](https://cloud.githubusercontent.com/assets/6801030/21081457/6952956c-bf95-11e6-9d35-12954fdeaebd.gif)
+
+### b. Reviews Data
+![reviews_columns](results/reviews.JPG)
+
+### c. Calendar Data
+![reviews_columns](results/calendar.JPG)
+
+## 2. Listings of all the hotels in Boston
+
+Following is the data for all the hotels in Boston that I collected
+
+![hotels_columns](results/hotels.JPG)
+
+## 3. Twitter data for airbnb boston
           
 # Analysis Results
 
@@ -63,6 +80,8 @@ I also analyzed the neighborhood in Boston where the prices of listings are expe
 To determine the change in price, I used circles of different sizes with varying colors. Below is the colorbar describing what each of those colors represent.
 
 ![Airbnb_vs_hotels_3](results/Analysis2_3.png)
+
+To provide a better reprentation of this comparision, I plotted all the locations on live google map. Below is the video for it.
 
 ![Airbnb_vs_hotels_4](https://cloud.githubusercontent.com/assets/6801030/21081413/1d9bd1c0-bf94-11e6-86b5-c70ef79a63ce.gif)
 
@@ -93,10 +112,12 @@ Drilling down even further, they can expect real beds for themselves than having
 
 ![property_info_3](results/Analysis4_2.png)
 
-## Analysis 5 -- Airbnb's listings performance over time
+## Analysis 5 -- Airbnb's listings performance over price
 
-In this analysis, I will be analyzing the performace of listing over time.
-I'll also be analyzing the occupancy trends against the pricing of that listing.
+As the price of the listings increases, lesser number of people take out time to review them on airbnb.
 
 ![listings_oerformance_1](results/Analysis5_1.png)
+
+Also, as more and more hosts are joining Airbnb, the price per bedroom is increasing over time.
+
 ![listings_oerformance_2](results/Analysis5_2.png)
