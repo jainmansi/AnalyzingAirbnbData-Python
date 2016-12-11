@@ -52,10 +52,13 @@ Through this analysis, I aimed to find out the distribution of listings over dif
 
 ## Analysis 2 -- Why Airbnb over hotels?
 
-In this analysis, I gathered latitudes and longitudes from Airbnb listings and Hotel listings. 
-I also analyzed the neighborhood in Boston where the prices of listings are expensive compared to cheaper options.
+In this analysis, I gathered latitudes and longitudes from Airbnb listings and Hotel listings.
 
 ![Airbnb_vs_hotels_1](results/Analysis2_1.png)
+
+I also analyzed the neighborhood in Boston where the prices of listings are expensive compared to cheaper options.
+
+![Airbnb_vs_hotels_1](results/Analysis2_2.png)
 
 ## Analysis 3 -- Changes in behavior of customers?
 
