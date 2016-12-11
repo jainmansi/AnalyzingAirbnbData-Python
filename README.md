@@ -67,6 +67,11 @@ Through this analysis, I aimed to find out the distribution of listings over dif
 ![listing_distribution_1](results/Analysis1_1.png)
 ![listing_distribution_2](results/Analysis1_2.png)
 
+I also plotted a heatmap determining various amenities to expect in different neighbourhood of boston
+
+![listing_distribution_3](results/Analysis1_3.png)
+
+
 ## Analysis 2 -- Why Airbnb over hotels?
 
 In this analysis, I gathered latitudes and longitudes from Airbnb listings and Hotel listings.
