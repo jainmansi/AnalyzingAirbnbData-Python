@@ -58,7 +58,11 @@ In this analysis, I gathered latitudes and longitudes from Airbnb listings and H
 
 I also analyzed the neighborhood in Boston where the prices of listings are expensive compared to cheaper options.
 
-![Airbnb_vs_hotels_1](results/Analysis2_2.png)
+![Airbnb_vs_hotels_2](results/Analysis2_2.png)
+
+To determine the change in price, I used circles of different sizes with varying colors. Below is the colorbar describing what each of those colors represent.
+
+![Airbnb_vs_hotels_3](results/Analysis2_3.png)
 
 ## Analysis 3 -- Changes in behavior of customers?
 
