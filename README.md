@@ -64,6 +64,10 @@ To determine the change in price, I used circles of different sizes with varying
 
 ![Airbnb_vs_hotels_3](results/Analysis2_3.png)
 
+<img src='http://imgur.com/kLiom7k' title='Video Walkthrough' width='' alt='Video Walkthrough' />
+
+GIF created with [LiceCap](http://www.cockos.com/licecap/).
+
 ## Analysis 3 -- Changes in behavior of customers?
 
 The first graph represents the growth of number of reviews by customer's over time.
