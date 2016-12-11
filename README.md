@@ -89,11 +89,29 @@ GIF created with [LiceCap](http://www.cockos.com/licecap/).
 
 ## Analysis 3 -- Changes in behavior of customers?
 
-The first graph represents the growth of number of reviews by customer's over time.
+In this analysis, I studied the behavior of customer over different factors - how it changed over time and how they behave over different social media.
+
+To answer first question, I find out the sum of all the reviews made over a period of time.
+
+```
+review_count_dates = pd.to_datetime(reviews['date']).value_counts().resample('D').mean().fillna(0)
+```
+The first graph represents the growth of number of reviews by customer's over time. 
 
 ![customer_behavior_1](results/Analysis3_1.png)
 
 <br/>
+To perform this analysis, I used a library called *TextBlob* to determine the polarity of each sentence in a review and then determined the cumulative polarity of that tweet.
+
+```
+blob = TextBlob(items["text"])
+
+for sentence in blob.sentences:
+                blob.tags
+                blob.noun_phrases
+                value = sentence.sentiment.polarity
+```
+
 However in second graph we see that customers are more likely to put a negative tweet on Twitter if they are dissatified and they are more likely to come back to Airbnb's website to leave a positive review if they are satisfied.
 
 ![customer_behavior_2](results/Analysis3_2.png)
@@ -113,6 +131,22 @@ Drilling down even further, they can expect real beds for themselves than having
 ![property_info_3](results/Analysis4_2.png)
 
 ## Analysis 5 -- Airbnb's listings performance over price
+
+To determine how customer's behave as they pay more for the rental I took two columns from two different .csv files and performed following operation:
+
+```
+review_num = pd.DataFrame(reviews.groupby(level=0).agg(len)['id'])
+price_id = pd.DataFrame(new_calDF.groupby(level=0).agg(np.mean))
+```
+
+and the finally merged them --
+
+```
+price_rev = pd.merge(review_num,price_id,
+                    how='inner',
+                    left_index=True,
+                    right_index=True)
+```
 
 As the price of the listings increases, lesser number of people take out time to review them on airbnb.
 
