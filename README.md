@@ -47,42 +47,45 @@ Following dataset are used to support my analysis on airbnb data:
 
 Through this analysis, I aimed to find out the distribution of listings over different neighbourhood in Boston region.
 
-![listing_distribution_1](results/Analysis1_1.JPG)
-![listing_distribution_2](results/Analysis1_2.JPG)
+![listing_distribution_1](results/Analysis1_1.png)
+![listing_distribution_2](results/Analysis1_2.png)
 
 ## Analysis 2 -- Why Airbnb over hotels?
 
 In this analysis, I gathered latitudes and longitudes from Airbnb listings and Hotel listings. 
 I also analyzed the neighborhood in Boston where the prices of listings are expensive compared to cheaper options.
 
-![Airbnb_vs_hotels_1](results/Analysis2_1.JPG)
+![Airbnb_vs_hotels_1](results/Analysis2_1.png)
 
 ## Analysis 3 -- Changes in behavior of customers?
 
 The first graph represents the growth of number of reviews by customer's over time.
 
-![customer_behavior_1](results/Analysis3_1.JPG)
+![customer_behavior_1](results/Analysis3_1.png)
 
 <br/>
 However in second graph we see that customers are more likely to put a negative tweet on Twitter if they are dissatified and they are more likely to come back to Airbnb's website to leave a positive review if they are satisfied.
 
-![customer_behavior_2](results/Analysis3_2.JPG)
+![customer_behavior_2](results/Analysis3_2.png)
 
 ## Analysis 4 -- Airbnb property information.
 
 From first graph, it is rather clear that an Airbnb customer shall expect Apartment kind of property over Condominium, independent houses or townships.
 
-![property_info_1](results/Analysis4_3.JPG)
+![property_info_1](results/Analysis4_3.png)
 
 Drilling down, they should also expect entire home or apartment to themselves than staying in a shared or private room.
 
-![property_info_2](results/Analysis4_1.JPG)
+![property_info_2](results/Analysis4_1.png)
 
 Drilling down even further, they can expect real beds for themselves than having to sleep on Pull-on sofa, Futon, Airbnb, Couch.
 
-![property_info_3](results/Analysis4_2.JPG)
+![property_info_3](results/Analysis4_2.png)
 
-## Analysis 5 -- Airbnb Occupancy Performance
+## Analysis 5 -- Airbnb's listings performance over time
 
 In this analysis, I will be analyzing the performace of listing over time.
 I'll also be analyzing the occupancy trends against the pricing of that listing.
+
+![listings_oerformance_1](results/Analysis5_1.png)
+![listings_oerformance_2](results/Analysis5_2.png)
